@@ -1,0 +1,120 @@
+@media screen and (max-width: 870px) {
+    #showcase .showcase-content {
+        line-height: 65px;
+    }
+
+    #showcase .showcase-content h1 {
+        font-size: 70px;
+    }
+    
+    #showcase .showcase-content p {
+        font-size: 18px;
+        line-height: 1.5em;
+        padding-top: 15px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px 0;
+        text-align: center;
+      }
+
+      .footer-container h3 {
+        text-align: center;
+      }
+
+      .footer-container .rrss {
+        text-align: left;
+      }
+
+      .copyright {
+          padding-bottom: 5px;
+      }
+}
+
+@media screen and (max-width: 711px) {
+    #navbar .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #navbar h1 {
+        padding: 25px;
+        width: 100%;
+    }
+
+    #navbar ul li:first-child {
+        border-top: #888 solid 1px;
+    }
+
+    #navbar ul li { 
+        padding: 10px;
+        border-bottom: #888 solid 1px;
+        width: 100%;
+    }
+    
+    #showcase .showcase-content h1 {
+        padding: 10px;
+        font-size: 55px;
+    }
+
+    #showcase .showcase-content p {
+        padding: 10px;
+    }
+
+    #home-info .info-block {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #home-info .info-content {
+        width: 100%;
+    }
+
+    #home-info .info-img,
+    #home-info .info-img-01,
+    #home-info .info-img-02,
+    #home-info .info-img-03 {
+        display: none;
+    } 
+}
+
+@media screen and (max-width: 315px) {
+    #showcase .showcase-content h1 {
+        font-size: 45px;
+        margin: auto;
+    }
+
+    #showcase .showcase-content p {
+        font-size: 16px;
+        line-height: 1.5em;
+        padding-bottom: 10px;
+    }
+
+    #home-info .info-content h2 {
+        font-size: 20px;
+    }
+
+    #showcase .showcase-content {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #showcase .showcase-content a {
+        padding: 40px 0;
+    }
+}
